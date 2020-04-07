@@ -1,0 +1,12 @@
+create table xx_merchant_referral
+(
+referral_id INT AUTO_INCREMENT PRIMARY KEY,
+coupon_id INT,
+store_name VARCHAR(255),
+referral_name VARCHAR(255),
+referral_discount INT,
+referral_validitydate TIMESTAMP,
+referral_status VARCHAR(20),
+added_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+modified_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)

@@ -1,0 +1,13 @@
+create table xx_cust_referral
+(
+cstm_coupon_id INT ,
+customer_id INT,
+coupon_id INT,
+custref_name VARCHAR(255),
+custref_discount INT,
+custref_validitydate TIMESTAMP,
+custref_status VARCHAR(20),
+posted_status VARCHAR(20),
+added_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+modified_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)

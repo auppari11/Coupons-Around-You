@@ -1,0 +1,14 @@
+Create table xx_users
+	(
+	user_id INT AUTO_INCREMENT PRIMARY KEY,
+	user_type VARCHAR(240),
+	user_fname VARCHAR(240),
+	user_lname VARCHAR(240),
+	user_mnumber INT,
+	merchant_idnumber INT,
+	merchant_sname VARCHAR(240),
+	user_emailid VARCHAR(240) UNIQUE NOT NULL,
+	user_pwd VARCHAR(240),
+	added_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    modified_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+	)

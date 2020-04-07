@@ -1,0 +1,13 @@
+create table xx_merchant_coupon
+(
+coupon_id INT AUTO_INCREMENT PRIMARY KEY,
+user_id INT,
+store_name VARCHAR(255),
+coupon_codename VARCHAR(255),
+coupon_discount INT,
+coupon_validitydate TIMESTAMP,
+coupon_count INT,
+coupon_status VARCHAR(20),
+added_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+modified_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
