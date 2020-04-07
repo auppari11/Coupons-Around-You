@@ -1,0 +1,30 @@
+.regTitle
+    h2 Register Here
+      .radio-inline
+         p Are you a merchant?
+         form
+           label
+            input(type='radio', name='idoption', value='yes', checked='')
+            | yes
+           label
+            input(type='radio', name='idoption', value='no')
+            | no
+      .register
+        form
+          p First Name
+          input(type='text', name='Fname', placeholder='Enter First Name')
+          p Last Name
+          input(type='text', name='Lname', placeholder='Enter Last Name')
+          p Mobile Number
+          input#num(type='text', name='Mnumber', placeholder='Enter Mobile Number')
+          p Authorized Merchant Id Number
+          input#num(type='text', name='merchantnumber', placeholder='Enter Number')
+          p Email Id
+          input#name(type='text', name='EmailId', placeholder='Enter Email Id')
+          p Password
+          input(type='password', name='pwd', placeholder='********')
+          p Re-Enter Password
+          input(type='password', name='pwd', placeholder='********')
+          br
+          input(type='submit', name='', value='Clear')
+          input(type='submit', name='', value='Submit')
