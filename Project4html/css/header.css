@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script&display=swap');
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+.header{
+	width:100%;
+	height:80px;
+	display:block;
+	background-color:#87CEEB;
+}
+.inner_header{
+	width:500px;
+	height:100%;
+	display:block;
+	margin:0 auto;
+}
+.logo_container{
+	width:300px;
+	height:100%;
+	float:center;
+	display:table;
+	margin:0 auto;
+}
+.logo_container h1{
+	 height:100%;
+	 width:100%;
+	 color:white;
+	 font-family:'Clicker Script';
+	 font-size:40px;
+	 display:table-cell;
+	 vertical-align:middle;
+}
+.logo img{
+	width:80px;
+	height:50px;
+	float:left;
+	display:table-cell;
+	margin:0 auto;
+	padding:20px;
+}
+body{
+	margin:0;
+	padding:0;
+	background:url("file:///C:/Users/akhil/Projects/Project4html/images/background.jpg");
+}
+.title{
+	text-align:center;
+	padding:50px 0 20px;
+	position:absolute;
+	right:15%;
+}
+.title h1{
+	margin:0;
+	padding:0;
+	color:#262626;
+	font-size:20px;
+}
+.container{
+	width:50%;
+	height:460px;
+	background:#fff;
+	margin:0 auto;
+	position:fixed;
+	top:15%;
+	left:30%;
+	border:2px solid #fff;
+	box-shadow:0 15px 40px rgba(0,0,0,.5);
+	display: flex;
+	justify-content: center;
+}
+.container .left{
+	float:left;
+	width:350px;
+	height:460px;
+	position:absolute;
+	top:0%;
+	left:0%;
+	background:url("file:///C:/Users/akhil/Projects/Project4html/images/background.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	box-sizing:border-box;
+}
+.container .right{
+	float:right;
+	width:350px;
+	height:460px;
+	position:absolute;
+	top:10%;
+	right:-10%;
+	box-sizing:border-box;
+	
+}
+.formBox{
+	width:100%;
+	padding:80px 40px;
+	height:400px;
+	float:center;
+}
+.formBox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:black;
+}
+.formBox input{
+	width:60%;
+	margin-bottom:20px;
+}
+.formBox input[type="text"],
+.formBox input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:40px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus
+{
+	border-bottom:2px solid blue;
+}
+.formBox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.regTitle {
+	margin:0px 0px 0px 600px;
+	padding:20px;
+	position:fixed;
+	left:9%;
+}
+.register
+{
+	width:500px;
+	height:500px;
+	margin:0px 0px 0px 550px;
+	position:fixed;
+	left:9%;
+	top:25%;
+}
+.register p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:black;
+	position:relative;
+	top:30%;
+	
+}
+.register input{
+	width:60%;
+	margin-bottom:20px;
+}
+.register input[type="text"],
+.register input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:20px;
+	background-color:#EBFAFB ;
+}
+.register input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:30px;
+	width:30%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.radio-inline{
+	width:500px;
+	margin:0px 0px 0px 550px;
+	position:fixed;
+	left:9%;
+	top:18%;
+}
+.radio-inline p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:black;
+	height:20px;
+}
+.radio-inline input[type="radio"]
+{
+	border:none;
+	outline:none;
+	height:20px;
+	width:20%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.sidenav {
+  height: 629px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  left: 0;
+  bottom:10px;
+  background-color: #808080;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.navlist a {
+  padding: 80px 10px 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.PersonalDetails {
+	position:fixed;
+	top:20%;
+	left:45%;
+}
+.PersonalDetails h1{
+	font-size: 35px;
+	color:black;
+	
+}
+.PersonalDetails p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:black;
+}
+.PersonalDetails input{
+	width:100%;
+	margin-bottom:20px;
+}
+.PersonalDetails input[type="text"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:20px;
+	background-color:#EBFAFB ;
+}
+.PersonalDetails input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:48%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.CustomerEntry{
+	position:fixed;
+	top:30%;
+	left:20%;
+}
+.CustomerEntry h1{
+	position:fixed;
+	top:25%;
+	left:40%;
+	font-size: 35px;
+}
+.CustomerEntry .left{
+	width:350px;
+	height:460px;
+	position:fixed;
+	top:40%;
+	left:28%;
+}
+.CustomerEntry .right{
+	width:350px;
+	height:460px;
+	position:fixed;
+	top:40%;
+	left:65%;
+}
+.leftEntry p{
+	margin-top:10%;
+	padding:5px;
+	font-weight:bold;
+	color:black;
+	font-size:18px;
+}
+.leftEntry input{
+	width:60%;
+}
+.leftEntry input[type="text"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:20px;
+}
+.leftEntry input[type="submit"]
+{
+	border:none;
+	outline:none;
+	position:fixed;
+	top:80%;
+	left:40%;
+	height:40px;
+	width:10%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.rightEntry p{
+	margin-top:10%;
+	padding:5px;
+	font-weight:bold;
+	color:black;
+	font-size:18px;
+}
+.rightEntry input{
+	width:60%;
+}
+.rightEntry input[type="text"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:20px;
+}
+.rightEntry input[type="submit"]
+{
+	border:none;
+	outline:none;
+	position:fixed;
+	top:80%;
+	left:55%;
+	height:40px;
+	width:10%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.CouponEntry{
+	position:fixed;
+	top:30%;
+	left:20%;
+}
+.CouponEntry h1{
+	position:fixed;
+	top:20%;
+	left:42%;
+	font-size: 35px;
+}
+.CouponEntry .left{
+	width:350px;
+	height:460px;
+	position:fixed;
+	top:30%;
+	left:28%;
+}
+.CouponEntry .right{
+	width:350px;
+	height:460px;
+	position:fixed;
+	top:30%;
+	left:65%;
+}
+.leftCouponEntry p{
+	margin-top:10%;
+	padding:5px;
+	font-weight:bold;
+	color:black;
+	font-size:18px;
+}
+.leftCouponEntry #comname
+{
+	font-size:15px;
+	padding-left:10px;
+	color:#5A427E;
+	font-weight:bold;
+	border:none;
+	border-bottom:2px solid black;
+	width:58%;
+	
+}
+.leftCouponEntry input{
+	width:60%;
+}
+.leftCouponEntry input[type="text"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:20px;
+}
+.leftCouponEntry input[type="submit"]
+{
+	border:none;
+	outline:none;
+	position:fixed;
+	top:85%;
+	left:40%;
+	height:40px;
+	width:10%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.rightCouponEntry p{
+	margin-top:10%;
+	padding:2px;
+	font-weight:bold;
+	color:black;
+	font-size:18px;
+}
+.rightCouponEntry input{
+	width:60%;
+}
+.rightCouponEntry input[type="text"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	outline:none;
+	height:20px;
+}
+.rightCouponEntry input[type="submit"]
+{
+	border:none;
+	outline:none;
+	position:fixed;
+	top:85%;
+	left:55%;
+	height:40px;
+	width:10%;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.rightCouponEntry textarea{
+  border: 0.5px solid black;
+}
+.rightCouponEntry #uploadimg
+{
+	border:none;
+	outline:none;
+	position:fixed;
+	top:73%;
+	left:65%;
+	height:20px;
+	width:12%;
+	color:black;
+	background:#D2CDCD;
+	cursor:pointer;
+}
+.PostCoupons{
+	position:fixed;
+	top:15%;
+	left:20%;
+	height:80%;
+}
+.PostCoupons h1{
+	position:fixed;
+	top:15%;
+	left:45%;
+	font-size: 35px;
+}
+.PostCoupons h2{
+	position:fixed;
+	top:25%;
+	left:40%;
+	font-size: 20px;
+}
+.PostCoupons .selectBox{
+	width:15px;
+	height:15px;
+}
+.submitButs input[type="submit"]{
+	position:fixed;
+	left:40%;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;	
+	height:30px;
+	width:90px;
+}
+.PostCoupons .redeemCoupons{
+	width: 400px;
+	position:fixed;
+	top:30%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.PostCoupons .redeemCoupons tbody{
+  display:block;
+  overflow:auto;
+  height: 440px;
+  width:500%;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.PostCoupons .redeemCoupons thead tr th{
+  background: black;
+  color:#fff;
+  padding: 10px;
+  text-align: left;
+  width: 200px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.PostCoupons .redeemCoupons tbody tr th{
+  padding: 20px;
+  text-align: left;
+  width: 800px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.PostCoupons .PostBtns{
+	position:fixed;
+	top:25%;
+	left:78%;
+}
+.PostCoupons .PostBtns input[type="submit"]{
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;	
+	height:30px;
+	width:100px;
+}
+.couponsavailed{
+	position:fixed;
+	top:20%;
+	left:20%;
+	height:80%;
+}
+.couponsavailed h2{
+	position:fixed;
+	top:15%;
+	left:45%;
+	font-size: 30px;
+}
+.couponsavailed .couponused{
+	width: 300px;
+	position:fixed;
+	top:22%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.couponsavailed .couponused tbody{
+  display:block;
+  overflow:auto;
+  height: 500px;
+  width:300%;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.couponsavailed .couponused thead tr th{
+  background: black;
+  color:#fff;
+  padding: 10px;
+  text-align: left;
+  width: 350px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.couponsavailed .couponused tbody tr th{
+  padding: 15px;
+  text-align: left;
+  width: 350px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.customerHome{
+	position:fixed;
+	top:20%;
+	left:20%;
+	height:80%;
+}
+.customerHome h2{
+	position:fixed;
+	top:12%;
+	left:40%;
+	font-size: 30px;
+}
+.customerHome h1{
+	position:fixed;
+	top:18%;
+	left:35%;
+	font-size: 25px;
+}
+.customerHome .CouponList{
+	width: 300px;
+	position:fixed;
+	top:23%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.customerHome .CouponList tbody{
+  display:block;
+  overflow:auto;
+  height: 500px;
+  width:400%;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.customerHome .CouponList thead tr th{
+  background: black;
+  color:#fff;
+  padding: 10px;
+  text-align: left;
+  width: 250px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.customerHome .CouponList tbody tr th{
+  padding: 15px;
+  text-align: left;
+  width: 350px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.MerchantDashboard{
+	position:fixed;
+	top:10%;
+	left:20%;
+	height:80%;
+}
+.MerchantDashboard h2{
+	position:fixed;
+	top:15%;
+	left:45%;
+	font-size: 20px;
+}
+.MerchantDashboard .selectBox{
+	width:15px;
+	height:15px;
+}
+.MerchantDashboard .merchantCoupons{
+	width: 400px;
+	position:fixed;
+	top:20%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.MerchantDashboard .merchantCoupons tbody{
+  display:block;
+  overflow:auto;
+  height: 500px;
+  width:400%;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.MerchantDashboard .merchantCoupons thead tr th{
+  background: black;
+  color:#fff;
+  padding: 10px;
+  text-align: left;
+  width: 250px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.MerchantDashboard .merchantCoupons tbody tr th{
+  padding: 20px;
+  text-align: left;
+  width: 800px;
+  border:1px solid #000;
+  border-collapse:collapse;
+}
+.MerchantDashboard .PostBtns{
+	position:fixed;
+	top:15%;
+	left:78%;
+}
+.MerchantDashboard .PostBtns input[type="submit"]{
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;	
+	height:30px;
+	width:100px;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	left:0px;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:6px;
+	font-size:6px;
+	display:block;
+	clear:both;
+}
